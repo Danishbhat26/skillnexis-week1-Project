@@ -1,20 +1,16 @@
-# Fieldnotes — React Blog UI
+# React Components Practice
 
-A responsive blog interface built with React. Posts are loaded from `public/posts.json` and rendered as cards.
+Five reusable components are included: `Header`, `Footer`, `Card`, `Button`, and `Form`.
 
-## Features
-- Fetches local JSON data on page load
-- Search by title, excerpt, or category
-- Filter by category
-- Responsive article-card layout
-- Loading, error, and no-results states
+## Concepts demonstrated
+- Props: pass titles, labels, descriptions, and button behavior into components.
+- State: counter value, card list, form input, and success message.
+- Events: button clicks and form submission.
+- Dynamic rendering: cards are created from an array using `.map()`.
 
 ## Run locally
 ```bash
 npm install
 npm run dev
 ```
-Open the local URL shown by Vite. The sample article content is for demonstration; edit `public/posts.json` to add your own posts.
-
-## Note
-The card background artwork is created with CSS gradients, so the interface does not depend on external image links.
+Open the local URL printed in the terminal. Customize the content and styling before submission.
